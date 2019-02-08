@@ -380,6 +380,8 @@ MonoBehaviour:
     taskIndex: 1
   - definition: {fileID: 11400000, guid: 6c100b96dc9424925a8d812d21f7d64a, type: 2}
     taskIndex: 0
+  - definition: {fileID: 11400000, guid: 6c100b96dc9424925a8d812d21f7d64a, type: 2}
+    taskIndex: 10
   questPrint: {fileID: 1153893424230796106, guid: 53bfd5f0095b044b591840dab611a0d6,
     type: 3}
   output: {fileID: 1512010402}
@@ -432,12 +434,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
+    m_Left: 20
     m_Right: 0
-    m_Top: 0
+    m_Top: 20
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 0
+  m_Spacing: 20
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
