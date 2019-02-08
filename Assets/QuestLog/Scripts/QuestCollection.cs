@@ -6,11 +6,13 @@ namespace CleverCrow.QuestLogs {
         
         public List<IQuest> Quests = new List<IQuest>();
         
-        public void Add (IQuest quest) {
+        public IQuest Add (IQuest quest) {
             var questCopy = quest.GetCopy();
             questCopy.Setup();
             Quests.Add(questCopy);
             _questInstances[quest] = questCopy;
+
+            return questCopy;
         }
 
         public IQuest Get (IQuest quest) {

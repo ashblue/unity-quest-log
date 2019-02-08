@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 034be263e7b5f4acc8ae83e9848f88f9, type: 3}
-  m_Name: Quest
+  m_Name: QuestAlt
   m_EditorClassIdentifier: 
   _displayName: Quest A
-  _description: 
+  _description: Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast
+    yardarm. Pinnace holystone mizzenmast quarter crow's nest.
   _tasks:
-  - _text: This is my first task
-  - _text: This is my second task
+  - _text: In the beginning
+  - _text: You did it!

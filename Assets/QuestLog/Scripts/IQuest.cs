@@ -11,5 +11,6 @@ namespace CleverCrow.QuestLogs {
         
         void Setup ();
         IQuest GetCopy ();
+        void NextTask ();
     }
 }
