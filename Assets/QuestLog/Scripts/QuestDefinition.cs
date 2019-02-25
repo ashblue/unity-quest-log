@@ -13,11 +13,9 @@ namespace CleverCrow.QuestLogs {
         [TextArea] 
         private string _description;
 
-        [HideInInspector]
+//        [HideInInspector]
         [SerializeField]
-        private List<QuestTask> _tasks = new List<QuestTask> {
-            new QuestTask ()
-        };
+        private List<QuestTask> _tasks = new List<QuestTask>();
 
         public string DisplayName => _displayName;
         public string Description => _description;
