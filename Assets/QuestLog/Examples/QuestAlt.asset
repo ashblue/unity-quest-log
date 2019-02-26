@@ -15,4 +15,32 @@ MonoBehaviour:
   _displayName: Quest Side
   _description: Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast
     yardarm. Pinnace holystone mizzenmast quarter crow's nest.
-  _tasks: []
+  _tasks:
+  - {fileID: 114350472526451608}
+  - {fileID: 114379678570796684}
+--- !u!114 &114350472526451608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54bb3df1071c4a54877e1283216f86e, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  _text: In the beginning
+--- !u!114 &114379678570796684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54bb3df1071c4a54877e1283216f86e, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  _text: You did it

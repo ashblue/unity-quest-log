@@ -385,6 +385,7 @@ MonoBehaviour:
   questPrint: {fileID: 1153893424230796106, guid: 53bfd5f0095b044b591840dab611a0d6,
     type: 3}
   output: {fileID: 1512010402}
+  task: {fileID: 0}
 --- !u!1 &1512010401
 GameObject:
   m_ObjectHideFlags: 0

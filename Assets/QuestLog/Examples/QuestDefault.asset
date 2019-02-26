@@ -17,4 +17,46 @@ MonoBehaviour:
     yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm
     hempen halter furl. Swab barque interloper chantey doubloon starboard grog black
     jack gangway rutters.
-  _tasks: []
+  _tasks:
+  - {fileID: 114358764626473984}
+  - {fileID: 114794405638916806}
+  - {fileID: 114078189700759368}
+--- !u!114 &114078189700759368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54bb3df1071c4a54877e1283216f86e, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  _text: 3rd task
+--- !u!114 &114358764626473984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54bb3df1071c4a54877e1283216f86e, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  _text: 1st task
+--- !u!114 &114794405638916806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54bb3df1071c4a54877e1283216f86e, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  _text: 2nd task
