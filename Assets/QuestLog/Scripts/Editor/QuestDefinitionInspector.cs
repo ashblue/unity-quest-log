@@ -40,17 +40,23 @@ namespace CleverCrow.QuestLogs.Editors {
                         AssetDatabase.AddObjectToAsset(task, target);
                         AssetDatabase.SaveAssets();
 
-                        prop.InsertArrayElementAtIndex(Mathf.Max(0, prop.arraySize - 1));
-                        prop.GetArrayElementAtIndex(prop.arraySize - 1).objectReferenceValue = task;
+                        prop.InsertArrayElementAtIndex(Mathf.Max(0, list.index));
+                        prop.GetArrayElementAtIndex(list.index + 1).objectReferenceValue = task;
                     },
                     onRemoveCallback = (list) => {
-                        // @TODO Bugged
-                        Debug.Log(list.index);
-                        var quest = target as QuestDefinition;
-                        var task = quest.Tasks[list.index] as QuestTask;
+                        var element = prop.GetArrayElementAtIndex(list.index);
+                        var task = element.objectReferenceValue;
+                        var questDefinition = target as QuestDefinition;
+
+                        Undo.RecordObject(target, "Remove Task");
+                        
+                        questDefinition._tasks.RemoveAt(list.index);
+                        Undo.RecordObject(task, "Remove Task");
                         
                         Undo.DestroyObjectImmediate(task);
-                        prop.DeleteArrayElementAtIndex(list.index);
+                        
+                        Undo.RecordObject(target, "Remove Task");
+                        Undo.CollapseUndoOperations(Undo.GetCurrentGroup());
                     }
                 };
             }

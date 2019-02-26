@@ -10,14 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 034be263e7b5f4acc8ae83e9848f88f9, type: 3}
-  m_Name: ArchiveQuestDefault
+  m_Name: QuestAlt
   m_EditorClassIdentifier: 
-  _displayName: Quest Main
+  _displayName: Quest Side
   _description: Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast
-    yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm
-    hempen halter furl. Swab barque interloper chantey doubloon starboard grog black
-    jack gangway rutters.
-  _tasks:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+    yardarm. Pinnace holystone mizzenmast quarter crow's nest.
+  _tasks: []
